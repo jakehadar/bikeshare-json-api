@@ -9,7 +9,7 @@ The API spec is annotated in [app.py](https://github.com/jakehadar/bikeshare-dem
 REST examples
 -------------
 
-1. Query all systems:
+Query all systems:
 
 * [GET /systems](https://bikeshare.pythonanywhere.com/app/api/v1.0/systems)
 
@@ -22,7 +22,7 @@ REST examples
   ]
   ```
 
-2. Select CitiBike ("System ID": "NYC"):
+Select CitiBike ("System ID": "NYC"):
 
 * [GET /system/NYC](https://bikeshare.pythonanywhere.com/app/api/v1.0/system/NYC)
 
@@ -31,7 +31,7 @@ REST examples
   {"Auto-Discovery URL":"https://gbfs.citibikenyc.com/gbfs/gbfs.json","Country Code":"US","Location":"NYC, NY","Name":"Citi Bike","System ID":"NYC","URL":"https://www.citibikenyc.com"}
   ```
 
-3. List of feeds provided by CitiBike:
+List of feeds provided by CitiBike:
 
 * [GET /system/NYC/feeds](https://bikeshare.pythonanywhere.com/app/api/v1.0/system/NYC/feeds)
 
@@ -40,7 +40,7 @@ REST examples
   ["station_information","system_regions","system_alerts","station_status","system_information"]
   ```
 
-4. CitiBike system alerts (feed):
+CitiBike system alerts (feed):
 
 * [GET /system/NYC/feed/system_alerts](https://bikeshare.pythonanywhere.com/app/api/v1.0/system/NYC/feed/system_alerts)
 
@@ -55,7 +55,7 @@ REST examples
   }
   ```
 
-5. Query all CitiBike stations:
+Query all CitiBike stations:
 
 * [GET /system/NYC/stations](https://bikeshare.pythonanywhere.com/app/api/v1.0/system/NYC/stations)
 
@@ -68,7 +68,7 @@ REST examples
   ]
   ```
 
-6. Live status of an arbitrary CitiBike station:
+Live status of an arbitrary CitiBike station:
 
 * [GET /system/NYC/station/212](https://bikeshare.pythonanywhere.com/app/api/v1.0/system/NYC/station/212)
 
