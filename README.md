@@ -28,7 +28,14 @@ Select CitiBike ("System ID": "NYC"):
 
 * JSON Response (dictionary): 
   ```json
-  {"Auto-Discovery URL":"https://gbfs.citibikenyc.com/gbfs/gbfs.json","Country Code":"US","Location":"NYC, NY","Name":"Citi Bike","System ID":"NYC","URL":"https://www.citibikenyc.com"}
+  {
+      "Auto-Discovery URL": "https://gbfs.citibikenyc.com/gbfs/gbfs.json",
+      "Country Code": "US",
+      "Location": "NYC, NY",
+      "Name": "Citi Bike",
+      "System ID": "NYC",
+      "URL": "https://www.citibikenyc.com"
+  }
   ```
 
 List of feeds provided by CitiBike:
@@ -37,7 +44,13 @@ List of feeds provided by CitiBike:
 
 * JSON Response (list of strings): 
   ```json
-  ["station_information","system_regions","system_alerts","station_status","system_information"]
+  [
+      "station_information",
+      "system_regions",
+      "system_alerts",
+      "station_status",
+      "system_information"
+  ]
   ```
 
 CitiBike system alerts (feed):
