@@ -52,7 +52,8 @@ REST examples
       },
       "last_updated": "Fri, 20 Sep 2019 15:14:39 GMT",
       "ttl": 10
-  }```
+  }
+  ```
 
 5. Query all CitiBike stations:
 
@@ -64,14 +65,16 @@ REST examples
       {"capacity":60,"eightd_has_key_dispenser":false,"electric_bike_surcharge_waiver":false,"external_id":"66db3606-0aca-11e7-82f6-3863bb44ef7c","has_kiosk":true,"lat":40.74334935,"lon":-74.00681753,"name":"W 16 St & The High Line","region_id":71,"rental_methods":["KEY","CREDITCARD"],"rental_url":"http://app.citibikenyc.com/S6Lr/IBV092JufD?station_id=212","short_name":"6233.05","station_id":"212"},
       {"capacity":23,"eightd_has_key_dispenser":false,"electric_bike_surcharge_waiver":false,"external_id":"66db3687-0aca-11e7-82f6-3863bb44ef7c","has_kiosk":true,"lat":40.70037867,"lon":-73.99548059,"name":"Columbia Heights & Cranberry St","region_id":71,"rental_methods":["KEY","CREDITCARD"],"rental_url":"http://app.citibikenyc.com/S6Lr/IBV092JufD?station_id=216","short_name":"4829.01","station_id":"216"},
       {"capacity":39,"eightd_has_key_dispenser":true,"electric_bike_surcharge_waiver":false,"external_id":"66db3708-0aca-11e7-82f6-3863bb44ef7c","has_kiosk":true,"lat":40.70277159,"lon":-73.99383605,"name":"Old Fulton St","region_id":71,"rental_methods":["KEY","CREDITCARD"],"rental_url":"http://app.citibikenyc.com/S6Lr/IBV092JufD?station_id=217","short_name":"4903.08","station_id":"217"}
-  ]```
+  ]
+  ```
 
 6. Live status of an arbitrary CitiBike station:
 
 * [GET /system/NYC/station/212](https://bikeshare.pythonanywhere.com/app/api/v1.0/system/NYC/station/212)
 
 * JSON Responsee (dictionary): 
-  ```{
+  ```json
+  {
       "capacity":60,
       "eightd_has_available_keys":false,
       "eightd_has_key_dispenser":false,
@@ -97,4 +100,5 @@ REST examples
       "short_name":"6233.05",
       "station_id":"212",
       "ttl":10
-  }```
+  }
+  ```
