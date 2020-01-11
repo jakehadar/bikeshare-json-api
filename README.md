@@ -153,9 +153,9 @@ Live status of an arbitrary CitiBike station:
   }
   ```
 
-Un-installation
+Uninstallation
 ---------------
-Un-install using pip to remove bikeshare-json-api (and its dependencies) from your environment.
+Uninstall using pip to remove bikeshare-json-api (and its dependencies) from your environment.
 
 ``` {.sourceCode .bash}
  $ pip uninstall bikeshare-json-api
