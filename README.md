@@ -1,4 +1,4 @@
-bikeshare-demo-app
+bikeshare-json-api
 ------------------
 
 A json api for polling live Bikeshare feeds, demonstrating a simple [bikeshare-json-api](https://github.com/jakehadar/bikeshare-json-api) use-case.
@@ -17,7 +17,7 @@ Clone this repo and install using setuptools.
 
 Usage
 -----
-Once bikeshare is installed, start the flask app by running `flask run` from from command line. 
+Once bikeshare-json-api is installed, start the flask app by running `flask run` from from command line. 
 
 ``` {.sourceCode .bash}
  $ flask run
