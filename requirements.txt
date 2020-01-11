@@ -1,3 +1,4 @@
 gbfs-client
 flask
 waitress
+requests
