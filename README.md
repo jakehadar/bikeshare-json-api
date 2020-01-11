@@ -1,7 +1,7 @@
 bikeshare-json-api
 ------------------
 
-A json api for polling live Bikeshare feeds, demonstrating a simple [bikeshare-json-api](https://github.com/jakehadar/bikeshare-json-api) use-case.
+A JSON api for polling live Bikeshare feeds, demonstrating a simple [bikeshare-client-python](https://github.com/jakehadar/bikeshare-client-python) use-case.
 
 The API spec is annotated in [app.py](https://github.com/jakehadar/bikeshare-json-api/blob/master/app.py)
 
