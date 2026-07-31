@@ -1,5 +1,13 @@
-from pkg_resources import resource_string
+import os
 from setuptools import setup, find_packages
+
+HERE = os.path.abspath(os.path.dirname(__file__))
+
+
+def read(filename):
+    with open(os.path.join(HERE, filename), encoding='utf-8') as f:
+        return f.read()
+
 
 VERSION = '0.0.1'
 
@@ -12,9 +20,9 @@ setup(
     url='https://github.com/jakehadar/bikeshare-json-api',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=resource_string(__name__, 'requirements.txt').decode('utf-8'),
-    license=resource_string(__name__, 'LICENSE.txt').decode('utf-8'),
+    install_requires=read('requirements.txt').splitlines(),
+    license=read('LICENSE.txt'),
     tests_require=['pytest'],
-    long_description=resource_string(__name__, 'README.md').decode('utf-8'),
+    long_description=read('README.md'),
     long_description_content_type='text/markdown'
 )
